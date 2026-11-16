@@ -1,0 +1,10 @@
+{
+  "id": "tidy-notes",
+  "name": "Tidy Notes",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "One tap turns rough, shorthand notes into clean sentences without changing what you wrote.",
+  "author": "Amit",
+  "authorUrl": "https://github.com/amitgiri0001",
+  "isDesktopOnly": false
+}
