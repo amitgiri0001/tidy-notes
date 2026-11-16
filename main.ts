@@ -129,7 +129,9 @@ export default class TidyNotesPlugin extends Plugin {
       },
       body: JSON.stringify({
         model: this.settings.model,
-        max_tokens: 8192,
+        max_tokens: 16000,
+        // Clean-up needs little reasoning; thinking tokens count against max_tokens.
+        output_config: { effort: "low" },
         system: SYSTEM_PROMPT,
         messages: [{ role: "user", content: `<note>\n${text}\n</note>` }],
       }),
